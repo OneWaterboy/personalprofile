@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html,
+div#root,
+div.App,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div#appHome {
+  display: flex;
+  width: 100%;
+}
+
+.detail-half,
+.image-half {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}

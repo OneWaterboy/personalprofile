@@ -1,9 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ImageHalf from './components/ImageHalf';
+import DetailHalf from './components/DetailsHalf';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="appHome">
+      <DetailHalf />
+      <ImageHalf />
     </div>
   );
 }
