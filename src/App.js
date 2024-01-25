@@ -1,6 +1,7 @@
 import './App.css';
 import ContactIcons from './components/ProfileIcons';
 import WelcomeText from './components/WelcomeText';
+import WorkCarousel from './components/WorkExamples';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
           <div id="personalInfo">
             <WelcomeText />
             <ContactIcons />
+          </div>
+          <div id="devloperInfo">
+            <WorkCarousel />
           </div>
         </div>
     </div>

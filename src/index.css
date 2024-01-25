@@ -48,6 +48,8 @@ div#splashArea{
   background-size: cover;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 div#welcomeText {
@@ -90,6 +92,7 @@ div#personalInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 70%;
 }
 
 .contact-icons a {
@@ -97,4 +100,15 @@ div#personalInfo {
   border: 3px solid #FFF;
   padding: 20px 0;
   border-radius: 50%;
+}
+
+div#devloperInfo {
+  height: 30%;
+  width: 100%;
+}
+
+div#workExamples {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.5);
 }
