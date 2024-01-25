@@ -22,25 +22,3 @@ body {
   padding: 0;
   overflow: hidden;
 }
-
-div#appHome {
-  display: flex;
-  width: 100%;
-}
-
-.detail-half{
-  width: 40%;
-  background-color: #F5F5F5;
-}
-
-.image-half {
-  width: 60%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.image-half {
-  background-image: url('./media/glaciersummit.jpg');
-  background-position: center;
-  background-size: cover;
-}
