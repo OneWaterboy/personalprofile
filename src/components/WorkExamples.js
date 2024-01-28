@@ -1,9 +1,7 @@
 
 function WorkCarousel(){
     return(
-        <div id="workExamples">
-
-        </div>
+        <div></div>
     )
 }
 
