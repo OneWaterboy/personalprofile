@@ -1,0 +1,45 @@
+
+@media screen and (max-width: 600px){
+    div#welcomeText h1 {
+        font-size: 45px;
+    }
+
+    div#welcomeText h2 {
+        font-size: 16px;
+    }
+
+    .resume-icon {
+        grid-area: resume;
+    }
+
+    .email-icon {
+        grid-area: email;
+    }
+
+    .phone-icon {
+        grid-area: phone;
+    }
+
+    .github-icon {
+        grid-area: github;
+    }
+
+
+    .icons-box {
+        width: 70%;
+        display: grid;
+        grid-template-areas: 
+        'resume phone email github';
+    }
+
+    .contact-icons .icons-box a {
+        height: 50px;
+        width: 50px;
+    }
+
+    .icons-box a img {
+        width: 30px;
+        height: 30px;
+        align-self: center;
+    }
+}

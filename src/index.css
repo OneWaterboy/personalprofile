@@ -73,42 +73,51 @@ div#welcomeText h1 {
   font-size: 75px;
 }
 
-.contact-icons a img {
-  width: 50%;
-}
-
-.contact-icons a {
-  width: 25%;
-}
-
 .contact-icons {
-  width: 30%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 40px 0 0;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.5);
+  padding: 10px 0 30px;
 }
 
 div#personalInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 70%;
+  justify-content: space-between;
+  height: 100%;
 }
 
-.contact-icons a {
-  width: 20%;
+.contact-icons .icons-box a {
+  display: flex;
+  justify-content: center;
+  width: 100px;
   border: 3px solid #FFF;
   padding: 20px 0;
   border-radius: 50%;
+  height: 100px;
 }
 
-div#devloperInfo {
+.icons-box {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons-box a img {
+  width: 50%;
+}
+
+/* div#devloperInfo {
   height: 30%;
   width: 100%;
-}
+} */
 
-div#workExamples {
+/* div#workExamples {
   height: 100%;
   width: 100%;
   background-color: rgba(245, 245, 245, 0.5);
-}
+} */
