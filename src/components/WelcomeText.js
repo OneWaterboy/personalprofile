@@ -4,7 +4,7 @@ function WelcomeText(){
     return(
         <div id="welcomeText">
             <h1>Hi, I'm Abrahm</h1>
-            <h2>Front End Developer & Mountaineer</h2>
+            <h2>Your Front End Development Professional</h2>
         </div>
     )
 }
