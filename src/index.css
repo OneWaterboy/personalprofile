@@ -78,7 +78,8 @@ div#welcomeText h1 {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 10px 0 30px;
+  height: 80px;
+  align-items: center;
 }
 
 div#personalInfo {
