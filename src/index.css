@@ -42,7 +42,7 @@ body {
   overflow: hidden;
 }
 
-div#splashArea{
+div#splashArea {
   background-image: url('./media/glaciersummit.jpg');
   background-position: center;
   background-size: cover;
