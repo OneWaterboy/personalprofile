@@ -78,7 +78,6 @@ div#welcomeText h1 {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  background: rgba(0,0,0,0.5);
   padding: 10px 0 30px;
 }
 
@@ -111,13 +110,6 @@ div#personalInfo {
   width: 50%;
 }
 
-/* div#devloperInfo {
-  height: 30%;
-  width: 100%;
-} */
-
-/* div#workExamples {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(245, 245, 245, 0.5);
-} */
+div#topBar {
+  background: rgba(0,0,0,0.6);
+}
