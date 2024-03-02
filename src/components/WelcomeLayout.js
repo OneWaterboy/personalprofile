@@ -8,6 +8,7 @@ function WelcomeLayout(){
             </div>
             <div id="welcomeText">
                 <h1>Hi, I'm Abrahm</h1>
+                <button id="showCarousel" className="carousel-button">See My Work</button>
             </div>
         </div>
     )

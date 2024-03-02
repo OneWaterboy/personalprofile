@@ -1,8 +1,10 @@
 
-function WorkCarousel(){
+function WorkExamples(){
     return(
-        <div></div>
+        <div id="portfolioExamples">
+            THIS IS MY DIV OF PORTFOLIO PROJECTS
+        </div>
     )
 }
 
-export default WorkCarousel;
+export default WorkExamples
