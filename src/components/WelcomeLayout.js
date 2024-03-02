@@ -1,6 +1,6 @@
 
 
-function WelcomeText(){
+function WelcomeLayout(){
     return(
         <div id="welcomeText">
             <h1>Hi, I'm Abrahm</h1>
@@ -9,4 +9,4 @@ function WelcomeText(){
     )
 }
 
-export default WelcomeText;
+export default WelcomeLayout;

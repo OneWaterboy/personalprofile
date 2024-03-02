@@ -82,7 +82,7 @@ div#welcomeText h1 {
   align-items: center;
 }
 
-div#personalInfo {
+div#splashGreeting {
   display: flex;
   flex-direction: column;
   align-items: center;
