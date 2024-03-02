@@ -70,7 +70,7 @@ div#welcomeText h1 {
 }
 
 div#welcomeText h1 {
-  font-size: 75px;
+  font-size: 50px;
 }
 
 .contact-icons {
@@ -83,10 +83,6 @@ div#welcomeText h1 {
 }
 
 div#splashGreeting {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   height: 100%;
 }
 
@@ -107,4 +103,17 @@ div#splashGreeting {
 
 div#topBar {
   background: rgba(0,0,0,0.6);
+}
+
+img#abrahmImage {
+  width: 200px;
+  border-radius: 50%;
+}
+
+div#spalshWelcome {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

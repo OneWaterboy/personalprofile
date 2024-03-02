@@ -1,10 +1,14 @@
-
+import ProfileImage from '../media/splash-image.jpg';
 
 function WelcomeLayout(){
     return(
-        <div id="welcomeText">
-            <h1>Hi, I'm Abrahm</h1>
-            <h2>Software Developer &#183; Gnome Enthusiast &#183; Mountaineer</h2>
+        <div id="spalshWelcome">
+            <div id="welcomeImage">
+                <img src={ProfileImage} alt="Abrahm" id="abrahmImage" />
+            </div>
+            <div id="welcomeText">
+                <h1>Hi, I'm Abrahm</h1>
+            </div>
         </div>
     )
 }
