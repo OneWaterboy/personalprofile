@@ -1,7 +1,6 @@
 import GithubIcon from '../media/github.png';
 import EmailIcon from '../media/gmail.png';
 import PhoneIcon from '../media/phonecall.png';
-import ResumeIcon from '../media/resume.png';
 import LinkedinIcon from '../media/linkedin.png';
 
 
