@@ -126,3 +126,62 @@ button#showCarousel {
   font-weight: 700;
   margin: 20px 0 0;
 }
+
+div#spalshWelcome.profile-open {
+  display: none;
+}
+
+.hide-button {
+  display: none;
+}
+
+div#portfolioExamples.active {
+  height: 100%;
+  background: rgba(245, 245, 245, 0.7);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.project {
+  flex-basis: 35%;
+  height: fit-content;
+  margin: 2% 5%;
+}
+
+.project-details {
+  background: #FFFFFF;
+  border-top: 3px solid rgba(0, 0, 0, 0.6);
+  height: 230px;
+}
+
+.project-details a {
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 0 auto 10px;
+  display: block;
+  width: fit-content;
+  font-family: 'Ubuntu', sans-serif;
+  color: #000;
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.tech-badges .tech-badge {
+  width: auto;
+  height: 25px;
+}
