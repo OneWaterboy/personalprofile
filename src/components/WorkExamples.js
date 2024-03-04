@@ -18,11 +18,11 @@ function WorkExamples(){
             {Object.values(projects).map((project, index) => (
                 console.log(project.img),
                 <div key={index} className="project">
-                    <img src={project.img} alt={project.desc} />
+                    <div className='project-screenshot'>
+                        <img src={project.img} alt={project.name} />
+                    </div>
                     <div className='project-details'>
                         <h3>{project.name}</h3>
-                        <p>{project.desc}</p>
-                        <a href={project.link}>Visit {project.name}</a>
                         <div className='tech-badges'>
                             {
                                 Array.isArray(project.tech) && project.tech.map((tech, index) => (
@@ -30,6 +30,8 @@ function WorkExamples(){
                                 ))
                             }
                         </div>
+                        <p>{project.desc}</p>
+                        <a target="_blank" href={project.link}>Visit {project.name}</a>
                     </div>
                 </div>
             ))}
