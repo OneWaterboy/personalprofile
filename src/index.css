@@ -150,15 +150,18 @@ div#portfolioExamples.active {
 }
 
 .project {
-  flex-basis: 35%;
-  height: fit-content;
+  flex-basis: 40%;
   margin: 2% 5%;
+  height: 500px;
 }
 
 .project-details {
   background: #FFFFFF;
   height: 300px;
   padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .project-details a {

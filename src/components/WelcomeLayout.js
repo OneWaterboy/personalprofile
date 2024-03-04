@@ -21,7 +21,8 @@ function WelcomeLayout(){
                 <img src={ProfileImage} alt="Abrahm" id="abrahmImage" />
             </div>
             <div id="welcomeText">
-                <h1>Hi, I'm Abrahm</h1>
+                <h1>Abrahm Rollins</h1>
+                <h2>Front End Developer &#183; Mountaineer</h2>
                 <button id="showCarousel" className={isActive ? 'hide-button' : ''}>See My Work</button>
             </div>
         </div>

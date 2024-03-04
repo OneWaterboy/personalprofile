@@ -22,6 +22,7 @@ export const projects = {
         img: darbywinery,
         name: 'Darby Winery',
         desc: 'Darby Winery is a fully customized WordPress website. The project involved reworking their entire site due to the need for a more modern and responsive design. The rebuild required Wireframing Using Figma, Custom WordPress Theme Development, and heavy use of the ACF plugin.',
-        tech: [Wordpress,Bootstrap,Php,Jquery]
+        link: 'https://darbywinery.com',
+        tech: [Wordpress,Bootstrap,Php,Jquery, Html5,Css3]
     },
 }

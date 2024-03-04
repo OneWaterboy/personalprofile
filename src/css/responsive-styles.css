@@ -1,3 +1,25 @@
+@media screen and (max-width: 1199px) {
+    .project {
+        flex-basis: 45%;
+        margin: 2% 2%
+    }
+
+    .project-details p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 980px){
+
+    .project {
+        flex-basis: 60%;
+    }
+
+    div#portfolioExamples.active {
+        justify-content: center;
+    }
+
+}
 
 @media screen and (max-width: 600px){
     div#welcomeText h1 {
@@ -33,7 +55,6 @@
     }
 
     .contact-icons .icons-box a {
-        height: 50px;
         width: 50px;
     }
 
@@ -42,4 +63,36 @@
         height: 30px;
         align-self: center;
     }
+
+    .contact-icons {
+        height: 60px;
+    }
+
+    .project-screenshot {
+        height: 150px;
+    }
+
+    .project {
+        flex-basis: 90%;
+    }
+
+    .project-details p {
+        font-size: 14px;
+    }
+
+    div#portfolioExamples.active{
+        padding-bottom: 100px;
+    }
+
+    .project-details {
+        height: 325px;
+    }
+}
+
+@media screen and (min-width: 475px) and (max-width: 600px){
+   
+    .project-details p {
+        font-size: 18px;
+    }
+    
 }
