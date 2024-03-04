@@ -18,7 +18,7 @@ function Project(){
                         }
                     </div>
                     <p>{project.desc}</p>
-                    <a target="_blank" href={project.link}>Visit {project.name}</a>
+                    <a target="_blank"rel="noreferrer" href={project.link}>Visit {project.name}</a>
                 </div>
             </div>
             ))}
