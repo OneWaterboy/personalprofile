@@ -15,7 +15,7 @@
         flex-basis: 60%;
     }
 
-    div#portfolioExamples.active {
+    div#portfolioExamples {
         justify-content: center;
     }
 

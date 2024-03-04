@@ -1,19 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
+import StateContext from './StateContext';
 import ProfileImage from '../media/splash-image.jpg';
 
 function WelcomeLayout(){
     
-    const [isActive, setIsActive] = useState(false);
+    const { isActive, setIsActive } = useContext(StateContext);
 
-    useEffect(() => {
-        const button = document.getElementById('showCarousel');
-        const handleClick = () => setIsActive(true);
-        button.addEventListener('click', handleClick);
+    const handleClick = () => {
+        setIsActive(!isActive); // This will toggle the isActive state
+    };
 
-        // Clean up the event listener when the component unmounts
-        return () => button.removeEventListener('click', handleClick);
-    }, []);
-
+    const closePortfolioClick = () => {
+        setIsActive(false); // This will set the isActive state to false
+    };
 
     return(
         <div id="spalshWelcome" className={isActive ? 'profile-open' : ''}>

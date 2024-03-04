@@ -1,21 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, { useContext } from 'react';
+import StateContext from './StateContext';
 import Project from './Project';
 
 function WorkExamples(){
-    const [isActive, setIsActive] = useState(false);
+    const { isActive, setIsActive } = useContext(StateContext);
+    
+    const handleClick = () => {
+        setIsActive(!isActive); // This will toggle the isActive state
+    };
 
-    useEffect(() => {
-        const button = document.getElementById('showCarousel');
-        const handleClick = () => setIsActive(true);
-        button.addEventListener('click', handleClick);
-
-        // Clean up the event listener when the component unmounts
-        return () => button.removeEventListener('click', handleClick);
-    }, []);
+    const closePortfolioClick = () => {
+        setIsActive(false); // This will set the isActive state to false
+    };
 
     return(
-        <div id="portfolioExamples" className={isActive ? 'active' : ''}>
-            <Project />
+        <div id="portfolioPopUp"className={isActive ? 'active' : ''} >
+            <span id="closePortfolio">X</span>
+            <h1 className="portfolio-header" >My Portfolio</h1>
+            <div id="portfolioExamples">
+                <Project />
+            </div>
         </div>
     )
 }
