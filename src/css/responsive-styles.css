@@ -87,6 +87,10 @@
     .project-details {
         height: 325px;
     }
+
+    span#closePortfolio {
+        top: 70px;
+    }
 }
 
 @media screen and (min-width: 475px) and (max-width: 600px){

@@ -217,7 +217,7 @@ h1.portfolio-header{
 span#closePortfolio {
     position: absolute;
     right: 10%;
-    top: 100px;
+    top: 90px;
     font-size: 30px;
     font-weight: 700;
 }
