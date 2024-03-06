@@ -142,7 +142,6 @@ div#spalshWelcome.profile-open {
 #portfolioPopUp.active {
   display: block;
   height: 100%;
-  padding: 0 0 100px;
 }
 
 
@@ -150,7 +149,7 @@ div#portfolioExamples {
   height: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 50px 0;
+  padding: 50px 0 150px;
   flex-wrap: wrap;
   overflow: scroll;
 }
