@@ -1,5 +1,6 @@
 import hike2hike from './media/project-screenshots/hike2hike.png';
 import darbywinery from './media/project-screenshots/darbywinery.png';
+import alpineweb from './media/project-screenshots/alpine-web-works.png';
 import Css3 from './media/code-logos/css3.png';
 import GoogleMapsAPI from './media/code-logos/google-maps-api.png';
 import Html5 from './media/code-logos/html5_Logo.png';
@@ -24,5 +25,12 @@ export const projects = {
         desc: 'Darby Winery is a fully customized WordPress website. The project involved reworking their entire site due to the need for a more modern and responsive design. The rebuild required Wireframing Using Figma, Custom WordPress Theme Development, and heavy use of the ACF plugin.',
         link: 'https://darbywinery.com',
         tech: [Wordpress,Bootstrap,Php,Jquery, Html5,Css3]
+    },
+    alpineweb: {
+        img: alpineweb,
+        name: 'Alpine Web Works',
+        desc: 'A simple landing page for the development company Alpine Web. The site was built using HTML, CSS, SCSS and Javascript. The site is deployed using Netlify',
+        link: 'https://darbywinery.com',
+        tech: [Js, Html5,Css3]
     },
 }
