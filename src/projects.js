@@ -30,7 +30,7 @@ export const projects = {
         img: alpineweb,
         name: 'Alpine Web Works',
         desc: 'A simple landing page for the development company Alpine Web. The site was built using HTML, CSS, SCSS and Javascript. The site is deployed using Netlify',
-        link: 'https://darbywinery.com',
+        link: 'https://alpine-web-works.com',
         tech: [Js, Html5,Css3]
     },
 }
