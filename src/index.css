@@ -55,7 +55,6 @@ div#welcomeText {
   width: 700px;
   padding: 20px 10px;
   color: #FFF;
-  background: rgba(0,0,0,0.6);
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -85,6 +84,7 @@ div#welcomeText h1 {
 
 div#splashGreeting {
   height: 100%;
+  background: rgba(0,0,0,0.4);
 }
 
 .contact-icons .icons-box a {

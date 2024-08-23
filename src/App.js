@@ -31,9 +31,6 @@ function App() {
   return (
       <div className="App">
         <div id="splashArea">
-          <div id="topBar">
-            <ContactIcons />
-          </div>
           <div id="splashGreeting">
             <StateContext.Provider value={{ isActive, setIsActive }}>
               <WelcomeLayout />
