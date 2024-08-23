@@ -20,6 +20,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  margin: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -56,6 +60,15 @@ div#welcomeText {
   padding: 20px 10px;
   color: #FFF;
   font-family: 'Ubuntu', sans-serif;
+}
+
+p.greeting-text {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+#welcomeText h1 {
+  margin-bottom: 25px;
 }
 
 div#welcomeText h1,
@@ -222,4 +235,8 @@ span#closePortfolio {
     top: 90px;
     font-size: 30px;
     font-weight: 700;
+}
+
+#welcomeImage {
+  margin: 0 0 30px;
 }
