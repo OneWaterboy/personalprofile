@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 600px){
     div#welcomeText h1 {
-        font-size: 45px;
+        font-size: 30px;
     }
 
     div#welcomeText h2 {
@@ -46,13 +46,10 @@
         grid-area: github;
     }
 
-
-    .icons-box {
-        width: 70%;
-        display: grid;
-        grid-template-areas: 
-        'resume phone email github';
+    .hike2hike-icon {
+        grid-area: h2h;
     }
+
 
     .contact-icons .icons-box a {
         width: 50px;
@@ -90,6 +87,10 @@
 
     span#closePortfolio {
         top: 70px;
+    }
+
+    p.greeting-text {
+        font-size: 14px;
     }
 }
 
