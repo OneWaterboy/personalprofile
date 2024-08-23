@@ -9,14 +9,14 @@ function App() {
   const [isActive, setIsActive] = useState(false);
 
 
-  useEffect(() => {
-    const button = document.getElementById('showCarousel');
-    const handleClick = () => setIsActive(true);
-    button.addEventListener('click', handleClick);
+  // useEffect(() => {
+  //   // const button = document.getElementById('showCarousel');
+  //   const handleClick = () => setIsActive(true);
+  //   button.addEventListener('click', handleClick);
 
-    // Clean up the event listener when the component unmounts
-    return () => button.removeEventListener('click', handleClick);
-  }, []);
+  //   // Clean up the event listener when the component unmounts
+  //   return () => button.removeEventListener('click', handleClick);
+  // }, []);
 
   useEffect(() => {
     const portfolio = document.getElementById('closePortfolio');
