@@ -22,7 +22,7 @@ function WelcomeLayout(){
             <div id="welcomeText">
                 <h1>Abrahm Rollins</h1>
                 <h2>Front End Developer &#183; Mountaineer</h2>
-                <button id="showCarousel" className={isActive ? 'hide-button' : ''}>See My Work</button>
+                {/* <button id="showCarousel" className={isActive ? 'hide-button' : ''}>See My Work</button> */}
             </div>
         </div>
     )
