@@ -1,3 +1,4 @@
+// StateContext.js
 import React from 'react';
 
 const StateContext = React.createContext();
