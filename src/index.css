@@ -83,6 +83,7 @@ div#welcomeText {
 p.greeting-text {
   margin-bottom: 30px;
   font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #welcomeText h1 {
@@ -283,4 +284,30 @@ span#closePortfolio {
 
 #splashArea {
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-info {
+  width: 80%;
+  max-width: 600px;
+}
+
+.welcome-info h1 {
+  color: #FFFFFF;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+div#infoTextBox.active {
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 80%;
+  max-width: 600px;
+  background: #000000;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
 }
