@@ -5,7 +5,7 @@ function InformationText({ isActive, onCloseClick }) {
     return (
         <div id="infoTextBox" className={`${isActive ? 'active' : ''}`}>
             <div id="infoBoxTitle">
-                <p>Why Hire Me?</p>
+                <p>About Me</p>
                 <span id="closeInfoBox" className={isActive ? 'active' : ''} onClick={onCloseClick}>X</span>
             </div>
             <p className='greeting-text'>
