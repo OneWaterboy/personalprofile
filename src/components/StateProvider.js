@@ -1,15 +1,18 @@
-// StateProvider.js (Renamed from StateContext)
 import React, { useState } from 'react';
-import StateContext from './StateContext';
 import ContactIcons from './ProfileIcons';
 import InformationText from './InfoText';
+import StateContext from './StateContext';
 import ProfileImage from '../media/profilephoto.jpg';
 
 function StateProvider() {
     const [isActive, setIsActive] = useState(false);
 
-    const handleClick = () => {
+    const handleAboutClick = () => {
         setIsActive(true);
+    };
+
+    const handleCloseClick = () => {
+        setIsActive(false);
     };
 
     return (
@@ -19,8 +22,10 @@ function StateProvider() {
                     <img src={ProfileImage} alt="Abrahm" id="abrahmImage" />
                 </div>
                 <h1>Hi, I’m Abrahm.</h1>
-                <ContactIcons onAboutClick={handleClick} />
-                <InformationText isActive={isActive} />
+                <div>
+                    <ContactIcons onAboutClick={handleAboutClick} />
+                    <InformationText isActive={isActive} onCloseClick={handleCloseClick} />
+                </div>
             </div>
         </StateContext.Provider>
     );

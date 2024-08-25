@@ -7,13 +7,9 @@ import H2HLogo from '../media/snowyridge.png';
 import AboutIcon from '../media/information.png';
 
 function ContactIcons({ onAboutClick }) {
-    // Define state to manage the active state of the icon
-    const [isActive, setIsActive] = useState(false);
-
     const handleIconClick = (e) => {
-        e.preventDefault(); // Prevent default behavior of the link
-        setIsActive(!isActive); // Toggle the active state
-        onAboutClick(); // Call the parent click handler if provided
+        e.preventDefault(); // Prevent the default behavior of the link
+        onAboutClick(); // Call the parent click handler to toggle the active class on `closeInfoBox`
     };
 
     return (
@@ -21,9 +17,8 @@ function ContactIcons({ onAboutClick }) {
             <div className="icons-row">
                 <a
                     id="aboutIcon"
-                    className={`about-icon ${isActive ? 'active' : ''}`} // Conditionally add the 'active' class
-                    href="#"
                     onClick={handleIconClick}
+                    href="#"
                     target="_blank"
                     rel="noreferrer"
                 >

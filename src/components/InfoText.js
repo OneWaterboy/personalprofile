@@ -1,9 +1,13 @@
 import React from 'react';
 import { useState } from 'react';
 
-function InformationText({ isActive }) {
+function InformationText({ isActive, onCloseClick }) {
     return (
         <div id="infoTextBox" className={`${isActive ? 'active' : ''}`}>
+            <div id="infoBoxTitle">
+                <p>Why Hire Me?</p>
+                <span id="closeInfoBox" className={isActive ? 'active' : ''} onClick={onCloseClick}>X</span>
+            </div>
             <p className='greeting-text'>
                 I’m a highly analytical and detail-oriented professional who loves spending my free time mountaineering. I've successfully summited over 100 challenging peaks, 
                 which has honed my problem-solving skills and taught me the value of preparation and perseverance. 
@@ -14,7 +18,7 @@ function InformationText({ isActive }) {
                 to every project and endeavor in my professional life.  
             </p>
             <p className='greeting-text'>
-                In short, I thrive on delivering results with unwavering accuracy and crystal-clear clarity.
+                In short, I thrive on delivering results with unwavering accuracy and clarity.
             </p>
         </div>
     );
